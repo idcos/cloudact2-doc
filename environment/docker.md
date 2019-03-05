@@ -11,7 +11,7 @@
 export IP=192.168.2.1
 
 docker pull registry.cn-hangzhou.aliyuncs.com/idcos/cloudact2
-docker run --privileged --rm -d --name=cloudact2 --net=host -e IP=${IP} \
+docker run --privileged --rm -d --name=cloudact2 --net=host \
     -v $PWD/cloudact2/deploy/conf/cloud-act2.yaml:/usr/yunji/cloud-act2/etc/cloud-act2.yaml \
     -v $PWD/cloudact2/deploy/conf/cloud-act2-proxy.yaml:/usr/yunji/cloud-act2/etc/cloud-act2-proxy.yaml \
     -v $PWD/cloudact2/deploy/conf/salt-api.conf:/etc/salt/master.d/salt-api.conf \
