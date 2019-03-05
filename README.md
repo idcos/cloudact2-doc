@@ -39,6 +39,6 @@ Cloud-Act2 通过统一抽象层，提供脚本执行和文件下发一致的 HT
 - [命令行示例](act2ctl/cmd_example.md)
 - [api 示例](act2ctl/api_example.md)
 
-## 全部
+## 目录
 
 - [目录](SUMMARY.md)
