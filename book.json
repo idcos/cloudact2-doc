@@ -6,6 +6,15 @@
     "extension": null,
     "github": null,
     "plugins": ["prism", "-highlight"],
+    "pluginsConfig": {
+        "prism": {
+            "lang": {
+                "bat": "bash",
+                "shell": "bash",
+                "toml": "properties"
+            }
+        }
+    },
     "links": {
     	"sidebar": {
     	},
